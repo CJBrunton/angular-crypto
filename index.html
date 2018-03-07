@@ -11,8 +11,14 @@
 		<div class="home-loader-container" ng-show="ui.isLoading"><i class="home-currency-loader fa fa-circle-o-notch fa-spin fa-4x fa-f"></i></div>
 		 <div class="home-currency-container"> 
 		 	<div class="home-currency-row" ng-hide="ui.isLoading">
-		 		<div class="home-page-item " ng-repeat="currency in currencies">
-		 			<div class="home-page-item-title">{{currency.name}}</div>
+		 		<div class="home-page-item " ng-repeat="currency in currencies">		 				 			
+		 			<div class="home-page-item-title">
+		 				{{currency.name}} 
+		 			</div>		 			
+		 			<div class="favourite">
+		 				<i ng-click="currency.favourited = true" ng-hide="currency.favourited" class="fa fa-star-o"></i>
+		 				<i ng-click="currency.favourited = false" ng-show="currency.favourited" class="fa fa-star"></i>
+		 			</div>	
 		 		</div>
 		 	</div>	
 		 </div>	

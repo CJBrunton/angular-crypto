@@ -26,6 +26,7 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px 1px rgba(0,0,0,.2);
     width:200px;
+    position: relative;
 }
 .home-page-item:hover{
 	cursor: pointer;
@@ -53,4 +54,12 @@
     color: #737373;
 }
 
-
+.favourite{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #737373;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+}
