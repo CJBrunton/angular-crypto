@@ -1,16 +1,16 @@
 <html ng-app="mainApp">
 	<head>
 	 	<link rel="stylesheet" href="app/styles/home.css">
+	 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<script src="public/javascript/main.js"></script>
-
-
 	</head>	
 </html>
 <body>
 	<div ng-controller="homeCtrl">
 		<div class="home-currency-header">Frunton Crypto</div>
+		<div class="home-loader-container" ng-show="ui.isLoading"><i class="home-currency-loader fa fa-circle-o-notch fa-spin fa-4x fa-f"></i></div>
 		 <div class="home-currency-container"> 
-		 	<div class="home-currency-row">
+		 	<div class="home-currency-row" ng-hide="ui.isLoading">
 		 		<div class="home-page-item " ng-repeat="currency in currencies">
 		 			<div class="home-page-item-title">{{currency.name}}</div>
 		 		</div>
