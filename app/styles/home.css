@@ -1,0 +1,44 @@
+.home-currency-header{
+	padding-top: 20px;
+	color: #737373;
+    font-family: Lato,sans-serif;
+    display:flex;
+    justify-content: center;	
+    font-weight: bold;
+    font-size:24px;
+}
+.home-currency-container{
+	border: none;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 20px;
+}
+.home-currency-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.home-page-item{
+	margin: 20px;
+    padding: 19px 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,.2);
+    width:200px;
+}
+.home-page-item:hover{
+	cursor: pointer;
+	background-color: #F5F5F5
+}
+.home-page-item-title{
+	color: #737373;
+    font-size: 12px;
+    font-weight: 900;
+    display: inline;
+    font-family: Lato,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+

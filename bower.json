@@ -1,0 +1,13 @@
+{
+  "name": "frunton-crypto",
+  "authors": [
+    "Chris Brunton"
+  ],
+  "private": true,
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.9"
+  }
+}
