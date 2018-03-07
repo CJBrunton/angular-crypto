@@ -5,5 +5,5 @@ Making use of grunt to bundle and concat JS files into one public Js file. Js fi
 
 1. run Npm insatll
 2. run bower install
-3. run grunt buil-app
+3. run grunt build-app
 4. Open index.html in your browser
