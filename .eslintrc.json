@@ -10,7 +10,8 @@
 	"env": {
 		"es6": true,
 		"browser": true
-	},	"plugins": ["angular"],
+	},
+	"plugins": ["angular"],
 	"rules": {	
 		"no-console": "off", 
 		"angular/module-getter": "off",

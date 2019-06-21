@@ -12,9 +12,9 @@ module.exports = function(grunt) {
 
     concat:{
         app:{
-            src: [
-              `./bower_components/angular/angular.js`, 
-              `./app/javascript/main.js`,
+            src: [			  
+              `./bower_components/angular/angular.js`, 			  
+              `./app/javascript/mainApp.js`,
               `./app/javascript/controllers/*.js`
             ],
             dest:'./public/javascript/main.js'
@@ -22,8 +22,7 @@ module.exports = function(grunt) {
     },
     watch : {
       app: {
-          files: [
-              './bower_components/angular/angular.js',                
+          files: [                             
               './app/javascript/**/*.js'
           ],tasks: ['concat:app'] ,
           options: {
